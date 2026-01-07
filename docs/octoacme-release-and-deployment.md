@@ -10,24 +10,27 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
-- Passing CI and security scans
-- Release notes drafted
-- Rollback / mitigation plan documented
-- Smoke tests prepared
+- Passing CI and security scans (DevOps Engineer verifies)
+- Release notes drafted (Project Manager coordinates)
+- Rollback / mitigation plan documented (DevOps Engineer prepares)
+- Smoke tests prepared (QA and DevOps Engineer collaborate)
+- Analytics tracking verified for new features (Data Analyst confirms)
 
 ## Deployment Checklist
-- [ ] Deployment window scheduled (if needed)
-- [ ] Backup or snapshot (if applicable)
-- [ ] Deploy to staging and run smoke tests
-- [ ] Deploy to production (automated pipeline preferred)
-- [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+- [ ] Deployment window scheduled (if needed) — Project Manager coordinates
+- [ ] Backup or snapshot (if applicable) — DevOps Engineer executes
+- [ ] Deploy to staging and run smoke tests — DevOps Engineer and QA
+- [ ] UX Designer reviews staging for design consistency and usability
+- [ ] Deploy to production (automated pipeline preferred) — DevOps Engineer monitors
+- [ ] Run post-deploy verifications — DevOps Engineer and Data Analyst validate metrics
+- [ ] Announce release to stakeholders and support — Project Manager communicates
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
-  - Rollback to last known-good release if necessary
-  - Triage root cause and capture action items
+  - Trigger incident response and notify on-call (DevOps Engineer leads response)
+  - Rollback to last known-good release if necessary (DevOps Engineer executes)
+  - Triage root cause and capture action items (Scrum Master facilitates retrospective)
+  - Data Analyst monitors impact metrics during and after incident
 
 ## Release Notes Template
 - Release name / number:
