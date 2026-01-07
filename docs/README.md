@@ -6,7 +6,9 @@ Welcome to OctoAcme's project management documentation! This README serves as th
 
 OctoAcme follows a customer-first, iterative, and data-informed approach to project management with clearly defined roles, responsibilities, and artifacts at every stage of delivery. Our framework emphasizes psychological safety, continuous improvement, and measurable outcomes. Projects move through a structured lifecycle beginning with **initiation**, where we validate business needs, identify stakeholders, and define success criteria through a lightweight Project One-pager. This phase ensures alignment on problem statements, timelines, and resource requirements before committing to detailed planning.
 
-During the **planning and execution** phases, teams break work into shippable increments with clear acceptance criteria and Definition of Done standards. We use project boards (such as GitHub Projects) to track progress from backlog to completion, supported by daily standups, weekly delivery syncs, and regular demos. Quality assurance is embedded throughout execution with unit tests, integration tests, security scanning, and manual QA as needed. The Project Manager coordinates schedules, dependencies, and risk management while the Product Manager owns the backlog prioritization and success metrics. Developers implement features collaboratively, and QA/Testing validates that acceptance criteria are met before release.
+During the **planning and execution** phases, teams break work into shippable increments with clear acceptance criteria and Definition of Done standards. We use project boards (such as GitHub Projects) to track progress from backlog to completion, supported by daily standups, weekly delivery syncs, and regular demos. Quality assurance is embedded throughout execution with unit tests, integration tests, security scanning, and manual QA as needed.
+
+Clear role ownership ensures accountability and smooth collaboration. The Project Manager coordinates schedules, dependencies, and risk management while the Product Manager owns the backlog prioritization and success metrics. Developers implement features collaboratively, and QA/Testing validates that acceptance criteria are met before release.
 
 **Risk management and communication** are integral to our process. Teams maintain a living Risk Register that tracks impact, likelihood, ownership, and mitigation plans for identified risks. Stakeholder communication follows regular cadences—weekly PM/Product Lead syncs, twice-weekly standups, and monthly stakeholder updates—with escalation paths defined for team-level, product-level, and sponsor-level issues. Clear communication templates ensure consistency in status reporting and incident response.
 
@@ -31,7 +33,7 @@ If you're new to OctoAcme or joining a project team:
 
 1. Start with the **[Project Management Overview](octoacme-project-management-overview.md)** to understand our core principles and approach
 2. Review the **[Roles & Personas](octoacme-roles-and-personas.md)** guide to understand your responsibilities and how you fit into the team
-3. Explore the specific process documents relevant to your current project phase (initiation, planning, execution, or release)
+3. Explore the specific process documents relevant to your current project phase from the Documentation Index above
 4. Keep these docs handy during project work—they're living resources that evolve based on team feedback
 
 ## Contributing to These Docs
